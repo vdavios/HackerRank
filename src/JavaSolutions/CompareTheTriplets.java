@@ -11,7 +11,6 @@ public class CompareTheTriplets {
                 res[1] +=1;
             }
         }
-
         return res;
     }
 }

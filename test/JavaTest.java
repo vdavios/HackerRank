@@ -9,14 +9,12 @@ public class JavaTest {
     private SolveMeFirst solver;
     private CompareTheTriplets compareTheTriplets;
 
-
     @Before
     public void beforeTest(){
         solver = new SolveMeFirst();
         compareTheTriplets = new CompareTheTriplets();
 
     }
-
 
     @Test
     public void testSolverMeFirstSolution(){
@@ -25,7 +23,6 @@ public class JavaTest {
         assertEquals(3, solver.func(10, -7));
         assertEquals(-2, solver.func(-10, 8));
     }
-
 
     @Test
     public void setCompareTheTripletsSolutionTest(){

@@ -19,5 +19,4 @@ class KotlinTest{
         assertArrayEquals(arrayOf(1,1), compareTheTriplets(arrayOf(5,6,7), arrayOf(3,6,10)))
     }
 
-
 }
